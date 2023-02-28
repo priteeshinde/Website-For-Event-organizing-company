@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:ital,wght@0,200;0,300;0,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+position: absolute;
+top: 100px;
+right: 500px;
+align-items: center;
+max-width: 400px;
+max-height: 500px;
+padding: 16px;
+background-color:white;
+}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: solid 2px;
+border-radius: 5px;
+background:rgb(249, 243, 243);
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color:white;
+outline: none;
+}
+
+.btn_more {
+    background-color: purple;
+    color: white;
+    padding: 6px 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+
+.btn_more:hover {
+opacity: 1;
+}
+
+section{
+    z-index: 2;
+    position:relative;
+} 
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 800;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(121, 33, 33, 0.7),rgba(243, 176, 230, 0.7));
+    z-index: -1;
+}
+
+.navbar{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bg-cover
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

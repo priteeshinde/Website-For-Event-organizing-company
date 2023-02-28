@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    
+    
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background-color:black;
+}
+.welcome h1
+{
+    padding-top:9%;
+     
+    font-size: 60px;
+    font-weight: 700;
+     text-shadow: 10cm;
+     color: white;
+     text-decoration-color: rgb(211, 6, 211);
+}
+.logo1
+{
+    height: 400px;
+    width: 570px;
+     
+    align-items: center;
+    margin-left: 33%;
+     
+
+}
+ 
+.logo
+{
+    
+    text-shadow: 0 0 50px rgb(1, 59, 1),
+                0 0 100px rgb(1, 59, 1),
+                0 0 150px rgb(1, 59, 1),
+                0 0 200px rgb(1, 59, 1),
+                0 0 250px rgb(1, 59, 1),
+                ;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
